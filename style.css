@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&family=Geologica:wght@500;600&family=Source+Code+Pro:ital@0;1&display=swap');
+
+
+*{
+    font-family: 'Fira+Sans:ital', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+.text-center{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+
+form{
+    background-color: rgb(230, 228, 228);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 10px;
+}
+
+#tempCalc label{
+    font-size: 20px;
+    height: 100px;
+}
+
+.btn-primary{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
+#resultContainer{
+    font-size: 35px;
+}
